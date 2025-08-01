@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: "Anton", sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.headline,
+.fighter,
+.countdown,
+.cta {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+}
+
+.headline {
+  top: 20%;
+  font-size: 3em;
+  color: red;
+}
+
+.fighter {
+  top: 40%;
+  font-size: 2em;
+  color: white;
+}
+
+.countdown {
+  top: 60%;
+  font-size: 4em;
+  color: yellow;
+}
+
+.cta {
+  top: 80%;
+  font-size: 2em;
+  color: #00ff99;
+}
+body {
+  margin: 0;
+  background: url("/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Anton", sans-serif;
+  overflow: hidden;
+}
